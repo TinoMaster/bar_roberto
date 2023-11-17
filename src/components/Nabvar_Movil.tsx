@@ -15,7 +15,7 @@ export const Nabvar_Movil = ({
     <div
       className={`fixed transition-transform ${
         navbarOpen
-          ? "flex flex-col translate-x-0 w-screen bg-gradient-to-tr from-orange-50 via-white to-orange-50 h-screen z-50"
+          ? "flex flex-col translate-x-0 w-screen bg-gradient-to-tr from-orange-50 via-white to-orange-50 h-screen z-40"
           : "-translate-x-full"
       } `}
     >

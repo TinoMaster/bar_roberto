@@ -8,15 +8,16 @@ interface NavBarPrincipalProps {
 }
 export const NavBarPrincipal = ({ toggleNavbar }: NavBarPrincipalProps) => {
   return (
-    <div className="flex justify-center items-center absolute z-20 w-full p-2">
+    <div className="flex justify-center items-center absolute z-20 w-full p-2 text-slate-200">
       <div className="container flex justify-between items-center">
         {/* Logo */}
-        <div className="flex flex-col items-center w-24">
+        <div className="flex items-center gap-2">
           <img
             src={logo_transparent}
             alt=""
-            className="w-full h-full object-contain"
+            className=" object-contain w-14 h-14 bg-white/50 rounded-full"
           />
+          <h1 className="text-3xl">Bar Roberto</h1>
         </div>
         {/* btn open menu */}
         <div className="lg:hidden">
