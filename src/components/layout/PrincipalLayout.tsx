@@ -10,9 +10,9 @@ export const PrincipalLayout = () => {
     <HashRouter>
       <header>
         <Nabvar_Movil toggleNavbar={toggleNavbar} navbarOpen={navbarOpen} />
-        <NavBarPrincipal toggleNavbar={toggleNavbar} />
+        <NavBarPrincipal toggleNavbar={toggleNavbar} navbarOpen={navbarOpen} />
       </header>
-      <section>
+      <section className="bg-darkMode">
         <PagesRoutes />
       </section>
       <footer></footer>

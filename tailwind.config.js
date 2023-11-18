@@ -4,8 +4,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#AE0F0B",
+        primary: "#D6B57D",
         secondary: "#F39100",
+        darkMode: "#171717",
+        lightMode: "#F1F5F9",
       },
       fontFamily: {
         lora: ["Lora", "serif"],

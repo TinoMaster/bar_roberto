@@ -4,7 +4,7 @@ export const useNavbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   const toggleNavbar = () => {
-    setNavbarOpen(!navbarOpen);
+    setNavbarOpen((prev) => !prev);
   };
 
   return { navbarOpen, toggleNavbar };

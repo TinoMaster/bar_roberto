@@ -1,4 +1,4 @@
-import { PrincipalLayout } from "./components/layout/Principal";
+import { PrincipalLayout } from "./components/layout/PrincipalLayout";
 
 function App() {
   return (

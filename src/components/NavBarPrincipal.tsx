@@ -5,8 +5,12 @@ import { CgMenuHotdog } from "react-icons/cg";
 
 interface NavBarPrincipalProps {
   toggleNavbar: () => void;
+  navbarOpen: boolean;
 }
-export const NavBarPrincipal = ({ toggleNavbar }: NavBarPrincipalProps) => {
+export const NavBarPrincipal = ({
+  toggleNavbar,
+  navbarOpen,
+}: NavBarPrincipalProps) => {
   return (
     <div className="flex justify-center items-center absolute z-20 w-full p-2 text-slate-200">
       <div className="container flex justify-between items-center">
@@ -35,6 +39,7 @@ export const NavBarPrincipal = ({ toggleNavbar }: NavBarPrincipalProps) => {
               key={link.name}
               link={link}
               toggleNavbar={toggleNavbar}
+              navbarOpen={navbarOpen}
             />
           ))}
         </div>

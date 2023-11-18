@@ -27,7 +27,12 @@ export const Nabvar_Movil = ({
       </button>
       <div className="flex flex-col grow justify-center items-center h-full gap-5">
         {links?.map((link) => (
-          <NavbarLink key={link.name} link={link} toggleNavbar={toggleNavbar} />
+          <NavbarLink
+            key={link.name}
+            link={link}
+            toggleNavbar={toggleNavbar}
+            navbarOpen={navbarOpen}
+          />
         ))}
       </div>
     </div>
