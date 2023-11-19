@@ -6,8 +6,8 @@ export default {
       colors: {
         primary: "#D6B57D",
         secondary: "#F39100",
-        darkMode: "#171717",
-        lightMode: "#F1F5F9",
+        darkMode: "#262626",
+        lightDarkMode: "#404040",
       },
       fontFamily: {
         lora: ["Lora", "serif"],

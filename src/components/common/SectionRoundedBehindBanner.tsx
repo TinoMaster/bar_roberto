@@ -6,7 +6,8 @@ export const SectionRoundedBehindBanner = ({
   children,
 }: SectionRoundedBehindBannerProps) => {
   return (
-    <article className="py-10 rounded-tr-2xl relative -translate-y-8 bg-darkMode z-20">
+    <article className="py-10 lg:py-20 rounded-tr-[50px] relative -translate-y-10 bg-gradient-to-b from-darkMode via-darkMode z-20">
+      <div className="gradient"/>
       {children}
     </article>
   );

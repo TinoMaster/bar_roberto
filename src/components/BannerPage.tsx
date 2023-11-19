@@ -10,7 +10,7 @@ export const BannerPage = ({
   desktopImage,
 }: BannerPageProps) => {
   return (
-    <section className="w-full h-[50vh] lg:h-[60vh] relative">
+    <section className="w-full h-[60vh] lg:h-[70vh] relative">
       <article className="absolute flex justify-center items-center w-full h-full bg-gradient-to-t from-black/40 to-black/50 z-10">
         {children}
       </article>

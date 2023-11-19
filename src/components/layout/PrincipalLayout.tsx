@@ -13,6 +13,7 @@ export const PrincipalLayout = () => {
         <NavBarPrincipal toggleNavbar={toggleNavbar} navbarOpen={navbarOpen} />
       </header>
       <section className="bg-darkMode">
+        <div className="gradient"></div>
         <PagesRoutes />
       </section>
       <footer></footer>
