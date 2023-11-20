@@ -24,6 +24,9 @@ export default {
       fontSize: {
         s: "9px",
       },
+      brightness: {
+        25: ".25",
+      },
     },
   },
   plugins: [],

@@ -38,7 +38,7 @@ export const useSEO = ({
     return () => {
       document.head.removeChild(metaDescription);
       document.head.removeChild(metaImage);
-      document.title = "TinoMaster | Portafolio";
+      document.title = "Bar Roberto";
       document.head.removeChild(metaKeywords);
     };
   }, [title, description, image, keywords]);

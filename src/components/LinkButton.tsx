@@ -9,7 +9,7 @@ export const LinkButton = ({ title, href }: LinkButtonProps) => {
   return (
     <Link
       to={href}
-      className="border border-secondary bg-primary/70 hover:bg-secondary/50 hover:shadow-black/60 transition-colors italic shadow-md shadow-black/40 text-lg p-2 rounded-md"
+      className="border border-primary hover:bg-primary/70 text-slate-200 hover:shadow-black/60 transition-colors italic shadow-md shadow-black/40 text-xl p-2 rounded-md"
     >
       {title}
     </Link>
