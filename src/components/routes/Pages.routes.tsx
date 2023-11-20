@@ -16,8 +16,8 @@ export const PagesRoutes = () => {
           <Route path="/" element={<HomePage />} />
           <Route path="/menu" element={<MenuPage />} />
           <Route path="/services" element={<ServicesPage />} />
-          <Route path="/story" element={<StoryPage />} />
-          <Route path="/contact" element={<ContactPage />} />
+          <Route path="/history" element={<StoryPage />} />
+          <Route path="/contacts" element={<ContactPage />} />
         </Routes>
       </Suspense>
     </>
